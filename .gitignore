@@ -1,3 +1,7 @@
 \test
 \train
 \__pycache__
+\myenv
+.ipynb_checkpoints/
+*.pyc
+.env
