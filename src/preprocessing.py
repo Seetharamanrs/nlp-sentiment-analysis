@@ -8,6 +8,11 @@ from nltk.tokenize import word_tokenize
 nltk.download('punkt_tab')
 nltk.download('punkt')
 from nltk.corpus import stopwords
+stop_words=set(stopwords.words('english'))
+stop_words.remove('not')
+stop_words.remove('no')
+stop_words.remove('nor')
+lemmatizer=WordNetLemmatizer()
 
 def html_remover(text):
     if isinstance(text,str):
@@ -27,10 +32,7 @@ def toke(text):
     return tokens
 
 def stop_word(text):
-    stop_words=set(stopwords.words('english'))
-    stop_words.remove('not')
-    stop_words.remove('no')
-    stop_words.remove('nor')
+
     filtered=[
         word for word in text
         if word.lower() not in stop_words
@@ -38,7 +40,6 @@ def stop_word(text):
     return filtered
 
 def lemmatization(lis):
-    lemmatizer=WordNetLemmatizer()
     l=list()
     for word in lis:
         a=lemmatizer.lemmatize(word)
