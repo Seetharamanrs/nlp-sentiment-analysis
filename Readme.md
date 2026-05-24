@@ -1,4 +1,4 @@
-# NLP sentiment Analysis
+#  NLP Sentiment Analysis
 
 ## Project Overview
 
@@ -61,8 +61,9 @@ This helps Machine Learning models understand textual data mathematically by ass
 
 ## Models Used
 ### Logistic Regression
+- Achieved 89% accuracy
 - Main sentiment classification model
-- Achieved better performance compared to Naive Bayes
+- Performed better compared to Naive Bayes
 ### Multinomial Naive Bayes
 - Baseline NLP classification model
 - Used for comparison and evaluation
@@ -124,4 +125,6 @@ Response Example
 - Transformer-based NLP models
 - Hugging Face integration
 
-### Author - Seetharaman Radhakrishnan
+## Author 
+
+Seetharaman Radhakrishnan
