@@ -16,7 +16,7 @@ The project also includes a Flask REST API that allows users to send movie revie
 - Train and compare multiple NLP classification models
 - Evaluate model performance using classification metrics
 - Deploy the model using a Flask API on AWS
-- Build a reusable preprocessing pipeline using Python modules
+- Build a reusable preprocessing pipeline using Python Modules
 
 ## Dataset
 
@@ -32,7 +32,7 @@ The dataset contains:
 Reviews are labeled only when:
 
 - Positive review score ≥ 7/10
-- Negative review score ≤ 4/10
+- Negative review score ≤ 5/10
 
 This makes the sentiment classification task more reliable and less ambiguous.
 
