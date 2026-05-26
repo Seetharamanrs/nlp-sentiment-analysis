@@ -8,6 +8,7 @@ The IMDB movie review dataset was cleaned and preprocessed using multiple NLP te
 
 The project also includes a Flask REST API that allows users to send movie reviews and receive real-time sentiment predictions.
 
+
 ## Objectives
 - Predict movie review sentiment as positive or negative
 - Perform text preprocessing and NLP cleaning techniques
